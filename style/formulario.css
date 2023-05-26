@@ -1,0 +1,67 @@
+main {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: auto;
+}
+header {
+  margin-left: 8vw;
+}
+form {
+  width: 70%;
+}
+img {
+  position: absolute;
+  left: 0px;
+  top: -3vw;
+  width: 15%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0);
+}
+fieldset {
+  height: 35vw;
+  padding: 2vw;
+}
+fieldset > h3 {
+  margin-bottom: 1.6vw;
+}
+
+input {
+  width: 25vw;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.507);
+  padding: 4px;
+  display: block;
+  margin-bottom: 1.5vw;
+}
+#mensagem {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  display: block;
+}
+.radios {
+  width: 10%;
+  display: inline;
+}
+#enviar {
+  background-color: darkgray;
+  padding: 5px;
+  border-radius: 14px;
+  border: unset;
+  width: 7rem;
+  display: inline;
+  margin-top: 3vw;
+  padding: 0.5vw;
+  cursor: pointer;
+}
+#alinhar {
+  text-align: center;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.651);
+}
+textarea::placeholder {
+  color: rgb(0, 0, 0, 0.651);
+}

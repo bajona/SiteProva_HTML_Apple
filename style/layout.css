@@ -1,0 +1,124 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+#cab1 {
+  background-color: aliceblue;
+  width: auto;
+  height: 7vw;
+}
+header {
+  margin-left: 8vw;
+}
+#imglogo {
+  position: absolute;
+  left: 0px;
+  top: -3vw;
+  width: 15%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0);
+}
+header > a {
+  text-decoration: none;
+  color: #666666;
+  margin: 5vh;
+}
+h1 {
+  position: relative;
+  margin: 3vh;
+  display: inline-block;
+}
+h3 {
+  text-align: center;
+}
+nav {
+  float: left;
+  background-color: rgb(240, 248, 255);
+  width: 15%;
+  height: 83vh;
+}
+.linktipo1 {
+  display: block;
+  margin: 5vh;
+  text-decoration: none;
+  color: gray;
+}
+main {
+  background-color: #f0f8ff;
+  color: black;
+  display: inline-block;
+  width: 70%;
+  height: 83vh;
+}
+img {
+  width: 20%;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0);
+}
+.produto {
+  margin: 9vh;
+  text-align: center;
+  display: inline;
+}
+.textobaixo {
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  width: 25vh;
+  height: 20vh;
+  display: inline-block;
+  margin: 8.1vh;
+  overflow: auto;
+  font-weight: 100;
+  padding: 2vh;
+  text-align: justify;
+}
+aside {
+  background-color: aliceblue;
+  float: right;
+  width: 15%;
+  height: 83vh;
+}
+footer {
+  text-align: center;
+  background-color: aliceblue;
+  width: 100%;
+  height: 2vh;
+}
+section > img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+section > img:not(:hover) {
+  transform: scale(1);
+  transition: 0.4s;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b8b7b7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d706f;
+}
+a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+a:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
+}
